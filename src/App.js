@@ -15,7 +15,7 @@ function App() {
           <div className="col">
             <Switch>
               <Route path="/consultas" component={Consultas}/>
-              <Route path="/faturamentos" component={Faturamento}/>
+              <Route path="/faturamento" component={Faturamento}/>
               <Route exact path="/" component={Resumo}/>
             </Switch>
           </div>
